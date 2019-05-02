@@ -2,15 +2,15 @@
 The guide you will connect your RadioBridge devices to your Exosite product.
 
 ## Table of Contents
-      * [Recommended Hardware](#recommended-hardware)
-      * [Prerequisites](#prerequisites)
-      * [Connecting RadioBridge and Exosite](#connecting-radiobridge-and-exosite)
-         * [Add the RadioBridge Product Template to your account](#add-the-radiobridge-product-template-to-your-account)
-         * [Add RadioBridge as a new product](#add-radiobridge-as-a-new-product)
-         * [Connect RadioBridge Console to Murano](#connect-radiobridge-console-to-murano)
-      * [Adding New Devices](#adding-new-devices)
-         * [Create a new device](#create-a-new-device)
-         * [Config IO needed????](#config-io-needed)
+   * [Recommended Hardware](#recommended-hardware)
+   * [Prerequisites](#prerequisites)
+   * [Connecting RadioBridge and Exosite](#connecting-radiobridge-and-exosite)
+      * [Add the RadioBridge Product Template to your account](#add-the-radiobridge-product-template-to-your-account)
+      * [Add RadioBridge as a new product](#add-radiobridge-as-a-new-product)
+      * [Connect RadioBridge Console to Murano](#connect-radiobridge-console-to-murano)
+   * [Adding New Devices](#adding-new-devices)
+      * [Create a new device](#create-a-new-device)
+      * [Config IO needed????](#config-io-needed)
 
 
 ## Recommended Hardware
