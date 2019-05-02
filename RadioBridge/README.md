@@ -2,8 +2,6 @@
 The guide you will connect your RadioBridge devices to your Exosite product.
 
 ## Table of Contents
-   * [RadioBridge and Murano Integration](#radiobridge-and-murano-integration)
-      * [Table of Contents](#table-of-contents)
       * [Recommended Hardware](#recommended-hardware)
       * [Prerequisites](#prerequisites)
       * [Connecting RadioBridge and Exosite](#connecting-radiobridge-and-exosite)
