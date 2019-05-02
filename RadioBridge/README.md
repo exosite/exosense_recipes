@@ -3,7 +3,7 @@ The guide you will connect your RadioBridge devices to your Exosite product.
 
 ## Recommended Hardware
 RadioBridge Water Sensor\
-MultiTech MultiConnect Conduit\
+MultiTech MultiConnect Conduit
 
 ## Prerequisites
 RadioBridge has an active connected device
@@ -20,7 +20,7 @@ Click the "Add Product" button. This adds the template to your account.\
 ### Add RadioBridge as a new product
 Navigate to Solutions->'+ New Solution'->'Add a product'\
 ![](../../assets/RadioBridge/CreateNewProduct.png)
-Choose a name for your product, could be as simple as 'radiobridge', and select "RadioBridge Product Template" as the starting point.\
+Choose a name for your product, could be as simple as 'radiobridge', and select "RadioBridge Product Template" as the starting point.
 
 ### Connect RadioBridge Console to Murano
 In the enpoints tab of the product, copy the URL as shown below\
