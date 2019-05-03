@@ -38,7 +38,6 @@ In the enpoints tab of the product, copy the URL as shown below\
 Paste this URL into the API settings of console.radiobridge.com\
 Append the URL with '/radiobridge'\
 ![from console.radiobridge.com](../../assets/RadioBridge/RadioBridgeConsoleAPI.png)
-**Header Authorization code???**
 
 ## Add Device in ExoSense
 Once a message has been transmitted from the device, the device will appear in "Unclaimed Devices" in ExoSense
