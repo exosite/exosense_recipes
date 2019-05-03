@@ -8,9 +8,7 @@ The guide you will connect your RadioBridge devices to your Exosite product.
       * [Add the RadioBridge Product Template to your account](#add-the-radiobridge-product-template-to-your-account)
       * [Add RadioBridge as a new product](#add-radiobridge-as-a-new-product)
       * [Connect RadioBridge Console to Murano](#connect-radiobridge-console-to-murano)
-   * [Adding New Devices](#adding-new-devices)
-      * [Create a new device](#create-a-new-device)
-      * [Config IO needed????](#config-io-needed)
+   * [Add Device in ExoSense](#add-device-in-exosense)
 
 
 ## Recommended Hardware
@@ -42,17 +40,6 @@ Append the URL with '/radiobridge'\
 ![from console.radiobridge.com](../../assets/RadioBridge/RadioBridgeConsoleAPI.png)
 **Header Authorization code???**
 
-## Adding New Devices
-### Create a new device
-Navigate to the devices tab in your Murano product\
-Select "+ New Device" -> "Add one device"\
-Input the DeviceID from RadioBridge into the Identity field\
-Select "Add"\
-![from console.radiobridge.com](../../assets/RadioBridge/AddDeviceDialog.png)
+## Add Device in ExoSense
+Once a message has been transmitted from the device, the device will appear in "Unclaimed Devices" in ExoSense
 
-
-**I hope we can get rid of this step...**
-From a terminal, execute the following curl command to provision the device using your product\_id and device\_id
-curl -i 'https://<product id>.m2.exosite.io/provision/activate' -H 'Content-Type: application/x-www-form-urlencoded; charset=utf-8' -d 'id=<device id>'
-
-### Config IO needed????
