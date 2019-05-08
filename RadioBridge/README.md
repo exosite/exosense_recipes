@@ -93,12 +93,12 @@ RadioBridge has an active connected device
 
 ### Add RadioBridge as a new product
 1.) Navigate to Solutions->'+ New Solution'->'Add a product'\
-![](../../assets/RadioBridge/CreateNewProduct.png)
+![](../../assets/RadioBridge/CreateNewProduct.png) \
 2.) Choose a name for your product, could be as simple as 'radiobridge', and select "RadioBridge Product Template" as the starting point.
 
 ### Connect RadioBridge Console to Murano
 1.) In the enpoints tab of the product, copy the URL as shown below\
-![Endpoint page in Murano](../../assets/RadioBridge/EndpointURL.png)
+![Endpoint page in Murano](../../assets/RadioBridge/EndpointURL.png) \
 2.) Paste this URL into the API settings of console.radiobridge.com\
 3.) Append the URL with '/radiobridge'\
 ![from console.radiobridge.com](../../assets/RadioBridge/RadioBridgeConsoleAPI.png)
