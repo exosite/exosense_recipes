@@ -17,19 +17,26 @@ Click the **New Solution** button and select **Add a Product**. Give your new pr
 ![](../../assets/ElectricImp/create_solution.png)
 ![](../../assets/ElectricImp/create_product.png)
 
-Now select your newly created proudct. In the upper right, click on the 'ID' tag to copy your unique product ID.
+Now select your newly created proudct. Click on the 'ID' tag to copy your unique product ID.
 ![](../../assets/ElectricImp/get_productid.png)
 
 ### Set Up Resources
 In this step, you will be creating two resources for your Electric Imp device to send data to.
 
-Navigate to **Resources** in product menu. 
+Navigate to **Resources** in product menu.
+
 ![](../../assets/ElectricImp/find_resources.png)
+
 Click **New Resource** to create a new resource.
+
 ![](../../assets/ElectricImp/new_resource.png)
+
 Set the Alias of your first resource to '**config_io**', make it of **String** format, and check the box that allows you to modify from the cloud, leaving **Possible values** and **Units** blank.
+
 ![](../../assets/ElectricImp/config_io.png)
+
 Add another resource called '**data_in**' of **String** format, and leave the rest blank.
+
 ![](../../assets/ElectricImp/data_in.png)
 
 ## 3. Connect Them!
