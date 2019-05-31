@@ -46,17 +46,10 @@ Now that you have both the hardware and the platform set up, all that's left is 
 ### impCentral
 If you are not yet familiar with impCentral and want to learn more, go ahead and follow the [getting started page](https://developer.electricimp.com/gettingstarted), otherwise continue on with these simple steps.
 
-1.	Get agent code from [here](https://github.com/exosite/ElectricImp_Integration/blob/master/Example/example.agent.nut) and copy it into the Agent Code in impCentral
-2.	Get device code from [here](https://github.com/exosite/ElectricImp_Integration/blob/master/Example/example.device.nut) and copy it into the Device Code in impCentral
-3.	Scroll to the bottom of the agent code and replace the existing product id with your new one
+1.	Get agent code from [here](https://github.com/electricimp/Exosite/blob/master/Example/example.agent.nut) and copy it into the Agent Code in impCentral
+2.	Get device code from [here](https://github.com/electricimp/Exosite/blob/master/Example/example.device.nut) and copy it into the Device Code in impCentral
+3.	Replace `<my_product_id>` your own Product ID in the Agent code
 ```
-
-#require "Exosite.agent.lib.nut:1.0.0"
-
-const PRODUCT_ID = <my_product_id>;  <------- REPLACE HERE
-
-exositeAgent <- Exosite(PRODUCT_ID, null);
-exositeAgent.provision();
-
+const PRODUCT_ID = <my_product_id>;
 ```
 4.	Build and you're done!
