@@ -44,7 +44,7 @@ Add another resource called '**data_in**' of **String** format, and leave the re
 Now that you have both the hardware and the platform set up, all that's left is to connect the two!
 
 ### impCentral
-If you are not yet familiar with impCentral and want to learn mre, go ahead and follow the getting started page linked above, otherwise continue on with these simple steps.
+If you are not yet familiar with impCentral and want to learn more, go ahead and follow the [getting started page](https://developer.electricimp.com/gettingstarted), otherwise continue on with these simple steps.
 
 1.	Get agent code from [here](https://github.com/electricimp/Exosite/blob/master/Example/example.agent.nut) and copy it into the Agent Code in impCentral
 2.	Get device code from [here](https://github.com/electricimp/Exosite/blob/master/Example/example.device.nut) and copy it into the Device Code in impCentral
