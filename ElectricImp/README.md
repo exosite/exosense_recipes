@@ -46,23 +46,10 @@ Now that you have both the hardware and the platform set up, all that's left is 
 ### impCentral
 If you are not yet familiar with impCentral and want to learn mre, go ahead and follow the getting started page linked above, otherwise continue on with these simple steps.
 
-1.	Get agent code from [here](https://github.com/exosite/ElectricImp_Integration/blob/master/Exosite.agent.lib.nut) and copy it into the Agent Code in impCentral
-2.	Get device code from [here](https://github.com/exosite/ElectricImp_Integration/blob/master/Example/example.device.nut) and copy it into the Device Code in impCentral
-3.	Scroll to the bottom and replace the existing product id with your new one
+1.	Get agent code from [here](https://github.com/electricimp/Exosite/blob/master/Example/example.agent.nut) and copy it into the Agent Code in impCentral
+2.	Get device code from [here](https://github.com/electricimp/Exosite/blob/master/Example/example.device.nut) and copy it into the Device Code in impCentral
+3.	Replace `<my_product_id>` your own Product ID
 ```
-//BEGIN LOCAL AGENT CODE
-    const PRODUCT_ID = "<PRODUCT ID GOES HERE>"; <------- REPLACE HERE
-
-    exositeAgent <- Exosite(PRODUCT_ID, null);
-    exositeAgent.provision();
-
-    //Enable debugMode that was defaulted to false
-    exositeAgent.debugMode = true;
-    //Change number of milliseconds between config_io refreshes
-    exositeAgent.configIORefreshTime = 150000;
-
-    device.on("reading.sent", exositeAgent.writeData.bindenv(exositeAgent));
-//END LOCAL AGENT CODE
-
+const PRODUCT_ID = <my_product_id>;
 ```
 4.	Build and you're done!
