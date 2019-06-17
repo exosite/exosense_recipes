@@ -40,7 +40,7 @@ const PRODUCT_ID = "<my_product_id>";
 Now that you have data from your device streaming into Exosite's platform, it is time to set up an ExoSense instance.
 
 1.	Navigate back to Murano, and create another solution, however this time, select **Add an Application**. Enter a domain name and under **Application Starting Point**, select **ExoSense**.
-![](../../assets/ElectricImp/create_application.png)
+![](../../assets/ElectricImp/create_application.png)\
 *Note: If you do not see ExoSense, at the top of the page, head to Exosite's IoT Marketplace and add ExoSense to your business.*
 2.	Once created, click the *more* icon in your ExoSense instance, and select **Manage application**.
 ![](../../assets/ElectricImp/exosense_more.png)
