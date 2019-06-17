@@ -49,6 +49,7 @@ Now that you have data from your device streaming into Exosite's platform, it is
 4.	In the top left corner, click on the url icon to go to yoru exosense page.
 
 ![](../../assets/ElectricImp/exosense_webpage.png)
+
 5.	Once on the home page of your exosense instance, go to the **Devices** tab and select **Unclaimed Devices**. Select your device, select a parent group, and click **Assign to group** to claim your device.
 ![](../../assets/ElectricImp/select_unclaimed_devices.png)
 ![](../../assets/ElectricImp/claim_device.png)
