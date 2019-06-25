@@ -22,7 +22,7 @@ We will start by making an OpenVPN server for both the gateway and the user's ma
 
 1.) Login to digitalocean.com
 
-2.) Create an OpenVPN droplet
+2.) Create an OpenVPN droplet\
 ![Alt Text](https://github.com/exosite/exosense_recipes/blob/assets/OpenVPN/CreateOpenVPNDroplet.gif?raw=true)
 
 3.) Using the username 'root' and the password e-mailed to you, login to the console
