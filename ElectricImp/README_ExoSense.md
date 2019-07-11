@@ -45,7 +45,7 @@ Now that you have data from your device streaming into Exosite's platform, it is
 2.	Navigate to **Business** at the top left of your page. Here, select the **Team** tab and then click the **New Team Member** button and add **Deployments@exosite.com** (it will default as *admin*).
 ![](../../assets/ElectricImp/add_team_member.png)
 ![](../../assets/ElectricImp/add_deployments.png)\
-After you've enabled your solution and added Deployments@exosite.com, it will take under one business day for your ExoSense instance to be deployed and you will recieve an email inviting you to it.
+After you've enabled your solution and added Deployments@exosite.com, it will take up to one business day for your ExoSense instance to be deployed and you will recieve an email inviting you to it.
 3.	Once deployed, navigate to your ExoSense instance via your invitation email, or simply click the *more* icon on your ExoSense application, and select **View application**.
 ![](../../assets/ElectricImp/exosense_more.png)
 4.	Go to the **Devices** tab and select **Unclaimed Devices**. Select your device, select a parent group, and click **Assign to group** to claim your device.
