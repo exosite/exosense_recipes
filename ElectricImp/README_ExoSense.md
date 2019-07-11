@@ -17,7 +17,7 @@ Click the **New Solution** button and select **Add a Product**. Give your new pr
 ![](../../assets/ElectricImp/create_solution.png)
 ![](../../assets/ElectricImp/create_exosense_product.png)
 
-Now select your newly created proudct. Click on the 'ID' tag to copy your unique product ID.
+Now select your newly created product. Click on the 'ID' tag to copy your unique product ID.
 ![](../../assets/ElectricImp/get_productid.png)
 
 ## 3. Connect Them!
@@ -41,18 +41,15 @@ Now that you have data from your device streaming into Exosite's platform, it is
 
 1.	Navigate back to Murano, and create another solution, however this time, select **Add an Application**. Enter a domain name and under **Application Starting Point**, select **ExoSense**.
 ![](../../assets/ElectricImp/create_application.png)\
-*Note: If you do not see ExoSense, at the top of the page, head to Exosite's IoT Marketplace and add ExoSense to your business.*
-2.	Once created, click the *more* icon in your ExoSense instance, and select **Manage application**.
+*Note: If you do not see ExoSense, at the top of the page, head to Exosite's IoT Marketplace and add ExoSense to your business.*\
+After you've enabled your solution, it will take under one business day for your ExoSense instance to be deployed and you will recieve an email inviting you to it.
+3.  Once deployed, navigate to your ExoSense instance via your invitation email, or simply click the *more* icon on your ExoSense application, and select **View application**.
 ![](../../assets/ElectricImp/exosense_more.png)
-3.	Under the **Services** tab, select the **Product Setup** menu. Once there, check the box next to the product you created and click on **Apply** to save the changes.
-![](../../assets/ElectricImp/connect_product.png)
-4.	In the top left corner, click on the url icon to go to yoru exosense page.\
-![](../../assets/ElectricImp/exosense_webpage.png)
-5.	Once on the home page of your exosense instance, go to the **Devices** tab and select **Unclaimed Devices**. Select your device, select a parent group, and click **Assign to group** to claim your device.
+4.	Go to the **Devices** tab and select **Unclaimed Devices**. Select your device, select a parent group, and click **Assign to group** to claim your device.
 ![](../../assets/ElectricImp/select_unclaimed_devices.png)
 ![](../../assets/ElectricImp/claim_device.png)
-6.	Head back to the **Devices** tab and click on the *more* icon, from there select **Create Simple Asset**. In the pop-up window just click **Create 1 Asset**
+5.	Head back to the **Devices** tab and click on the *more* icon, from there select **Create Simple Asset**. In the pop-up window just click **Create 1 Asset**
 ![](../../assets/ElectricImp/device_more.png)
-7.	Click on the dashboard icon in the upper right to view the dashboard for your device. Once there, Click the *+* icon, and then the graph icon to add a new panel. From there, select a panel type, a signal, and configure the panel how you'd like it. Click **SAVE** in the bottom right to create your panel. You may continue to add as many panels as you'd like.
+6.	Click on the dashboard icon in the upper right to view the dashboard for your device. Once there, Click the *+* icon, and then the graph icon to add a new panel. From there, select a panel type, a signal, and configure the panel how you'd like it. Click **SAVE** in the bottom right to create your panel. You may continue to add as many panels as you'd like.
 ![](../../assets/ElectricImp/view_dashboard.png)
 ![](../../assets/ElectricImp/add_panel.png)
