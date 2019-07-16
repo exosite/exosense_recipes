@@ -32,9 +32,22 @@ Integrating the Banner DXM100 with ExoSense
 
 
 ## Configuring ExoSense
-- View in unclaimed devices
-- Configure Channels
-- DXM100 as protocol
-- "register":"regXY" as app-specific-config
+### Claim the Device
+    - Once transmitting data, the device will appear in "Unclaimed devices"
+    - The device can be identified as it's serial number
 
+### Configure Channels
+- Locate and select the Device in the "Devices" Tab
+- Select "Channels" in the Navigation Ribbon
 
+![](../../assets/Banner/CreateChannel.png)
+- Configure the Channel to use a "Custom" Protocol
+- For the Application, enter "DXM100"
+- In the app_specific_config (replacing "<>" with the register number to read) enter:
+```
+{
+"register":"reg<>"
+}
+```
+
+![](../../assets/Banner/ChannelConfiguration.png)
