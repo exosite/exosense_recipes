@@ -11,7 +11,7 @@ Integrating the Banner DXM100 with ExoSense
 - Mark registers for cloud read\
     Edit the local registers to be readable by the cloud. This can be done from the "Edit Register" tab or "Modify Multiple Registers" tab.
     
-    ![](../../assets/Banner/DXM100_002.png)
+    ![](../../assets/Banner/DXM100_002.PNG)
 
 
 ### Connect to ExoSense
@@ -28,7 +28,7 @@ Integrating the Banner DXM100 with ExoSense
 - In the "Web Server" settings, input your productID appended with '.apps.exosite.io' for the Server name/IP
 - Input '/data_in' as the Page
 
-![](../../assets/Banner/DXM100_001.png)
+![](../../assets/Banner/DXM100_001.PNG)
 
 
 ## Configuring ExoSense
