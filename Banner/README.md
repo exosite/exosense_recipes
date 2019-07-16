@@ -1,20 +1,20 @@
-#Banner Integration
+# Banner Integration
 Integrating the Banner DXM100 with ExoSense
 
 
-##Prerequisites
+## Prerequisites
 - ExoSense Account with Banner Product connected and admin access #TODO:Expand on this
 - Banner DXM100 connected to sensors
 
-##Configuring the DXM100
-###Configure Registers
+## Configuring the DXM100
+### Configure Registers
 - Mark registers for cloud read\
     Edit the local registers to be readable by the cloud. This can be done from the "Edit Register" tab or "Modify Multiple Registers" tab.
     
     ![](../../assets/Banner/DXM100_002.png)
 
 
-###Connect to ExoSense
+### Connect to ExoSense
 
 - Find the Product ID
     - Navigate to the "Setup" page in ExoSense
@@ -31,7 +31,7 @@ Integrating the Banner DXM100 with ExoSense
 ![](../../assets/Banner/DXM100_001.png)
 
 
-##Configuring ExoSense
+## Configuring ExoSense
 - View in unclaimed devices
 - Configure Channels
 - DXM100 as protocol
