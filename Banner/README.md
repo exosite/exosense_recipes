@@ -36,6 +36,8 @@ Integrating the Banner DXM100 with ExoSense
 - Once transmitting data, the device will appear in "Unclaimed devices"
 - The device can be identified as it's serial number
 
+Read more about devices here: [https://exosense.readme.io/docs/devices]https://exosense.readme.io/docs/devices
+
 ### Configure Channels
 - Locate and select the Device in the "Devices" Tab
 - Select "Channels" in the Navigation Ribbon
@@ -51,3 +53,8 @@ Integrating the Banner DXM100 with ExoSense
 ```
 
 ![](../../assets/Banner/ChannelConfiguration.png)
+
+### Next Steps
+Create an asset from the device. More can be read here: [https://exosense.readme.io/docs/how-to-create-an-asset](https://exosense.readme.io/docs/how-to-create-an-asset) \
+Lastly, create a dashboard to visualize the asset data. More can be read here: [https://exosense.readme.io/docs/how-to-create-a-dashboard](https://exosense.readme.io/docs/how-to-create-a-dashboard)
+
