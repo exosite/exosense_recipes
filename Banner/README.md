@@ -21,6 +21,9 @@ Integrating the Banner DXM100 with ExoSense
     - Within the Setup page, navigate to "Data Sources" in the navigation ribbon. This will list all products that provide data to ExoSense
     - Locate your Banner product (may be the only product listed)
     - Make note of the ProductID listed (17 digit code)
+
+![](../../assets/Banner/ProductID.png)
+
 - Navigate to "Settings" -> "Cloud Services" in the DXM Configuration application
 - In the "Web Server" settings, input your productID appended with '.apps.exosite.io' for the Server name/IP
 - Input '/data_in' as the Page
@@ -33,8 +36,5 @@ Integrating the Banner DXM100 with ExoSense
 - Configure Channels
 - DXM100 as protocol
 - "register":"regXY" as app-specific-config
-
-
-
 
 
