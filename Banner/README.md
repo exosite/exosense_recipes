@@ -55,6 +55,6 @@ Read more about devices here: [https://exosense.readme.io/docs/devices]https://e
 ![](../../assets/Banner/ChannelConfiguration.png)
 
 ### Next Steps
-Create an asset from the device. More can be read here: [https://exosense.readme.io/docs/how-to-create-an-asset](https://exosense.readme.io/docs/how-to-create-an-asset) \
-Lastly, create a dashboard to visualize the asset data. More can be read here: [https://exosense.readme.io/docs/how-to-create-a-dashboard](https://exosense.readme.io/docs/how-to-create-a-dashboard)
+- Create an asset from the device. More can be read here: [https://exosense.readme.io/docs/how-to-create-an-asset](https://exosense.readme.io/docs/how-to-create-an-asset) \
+- Lastly, create a dashboard to visualize the asset data. More can be read here: [https://exosense.readme.io/docs/how-to-create-a-dashboard](https://exosense.readme.io/docs/how-to-create-a-dashboard)
 
