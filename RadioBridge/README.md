@@ -85,22 +85,22 @@ RadioBridge has an active connected device
 
 ## Connecting RadioBridge and Exosite
 ### Add the RadioBridge Product Template to your account
-1.) Navigate to Murano and select "IoT Marketplace" in the top ribbon\
-2.) In solutions, find and select "RadioBridge Product Template"\
-3.) Click the "Add Product" button. This adds the template to your account.\
+1.) Navigate to Murano and select "*IoT Marketplace*" in the top ribbon\
+2.) In solutions, find and select "*RadioBridge Product Template*"\
+3.) Click the "*Add Product*" button. This adds the template to your account.\
 ![](../../assets/RadioBridge/RadioBridgeExchangeElement.png)
 
 
 ### Add RadioBridge as a new product
-1.) Navigate to Solutions->'+ New Solution'->'Add a product'\
+1.) Navigate to '*Solutions*'->'*+ New Solution*'->'*Add a product*'\
+2.) Choose a name for your product, could be as simple as '*radiobridge*', and select "*RadioBridge Product Template*" as the starting point.\
 ![](../../assets/RadioBridge/CreateNewProduct.png) \
-2.) Choose a name for your product, could be as simple as 'radiobridge', and select "RadioBridge Product Template" as the starting point.
 
 ### Connect RadioBridge Console to Murano
-1.) In the enpoints tab of the product, copy the URL as shown below\
+1.) Copy your product URL by clicking the link icon, or in the enpoints tab of the product, copy the URL as shown below\
 ![Endpoint page in Murano](../../assets/RadioBridge/EndpointURL.png) \
 2.) Paste this URL into the API settings of console.radiobridge.com\
-3.) Append the URL with '/radiobridge'\
+3.) Append the URL with '*/radiobridge*'\
 ![from console.radiobridge.com](../../assets/RadioBridge/RadioBridgeConsoleAPI.png)
 
 ## Add Device in ExoSense
