@@ -97,7 +97,7 @@ RadioBridge has an active connected device
 ![](../../assets/RadioBridge/CreateNewProduct.png) \
 
 ### Connect RadioBridge Console to Murano
-1.) Copy your product URL by clicking the link icon, or in the enpoints tab of the product, copy the URL as shown below\
+1.) In the enpoints tab of the product, copy the URL as shown below\
 ![Endpoint page in Murano](../../assets/RadioBridge/EndpointURL.png) \
 2.) Paste this URL into the API settings of console.radiobridge.com\
 3.) Append the URL with '*/radiobridge*'\
