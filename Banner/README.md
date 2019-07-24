@@ -44,13 +44,13 @@ To configure the channels, upload the device's configuration XML.
 
 Note: Each configuration for a device must have a unique GUID. (The GUID must update if the configuration changes on a single device)
 
-1.) Navigate to "Devices" -> "Software Packages"
-2.) Click the "+" button to add a software package
-3.) Enter a name for the "Software Package" and select the associated product for the DXM
-4.) For the version, ensure this matches the GUID in the configuration file (This is found near the top, inside of the <info> tag)
-5.) Select "File" as the type and upload the configuration xml
+1. Navigate to "Devices" -> "Software Packages"
+2. Click the "+" button to add a software package
+3. Enter a name for the "Software Package" and select the associated product for the DXM
+4. For the version, ensure this matches the GUID in the configuration file (This is found near the top, inside of the <info> tag)
+5. Select "File" as the type and upload the configuration xml
 
-![Add Software Package](../../assets/Banner/addSoftwarePackage.png)
+![](../../assets/Banner/AddSoftwarePackage.png)
 
 *Associate Configuration with Device*
 1. Navigate to the device
