@@ -13,7 +13,7 @@ The guide you will connect your RadioBridge devices to your Exosite product.
 
 ## 1. Prerequisites
 Familiarize yourself with your Radio Bridge hardware by setting it up using Radio Bridge's [getting started page](https://radiobridge.com/documents/Quick%20Start%20Guide%20for%20Radio%20Bridge%20Sensors.pdf) and ensure Radio Bridge has an active connected device.\
-![Screenshot from console.radiobridge.com](../../assets/RadioBridge/RadioBridgeDeviceActive.png)\
+![Screenshot from console.radiobridge.com](../../assets/RadioBridge/RadioBridgeDeviceActive.png)
 
 ## 2. Connecting RadioBridge and Exosite
 ### Add the RadioBridge Product Template to your account
@@ -25,7 +25,7 @@ Familiarize yourself with your Radio Bridge hardware by setting it up using Radi
 ### Add RadioBridge as a new product
 1.) Navigate to '*Solutions*'->'*+ New Solution*'->'*Add a product*'\
 2.) Choose a name for your product, could be as simple as '*radiobridge*', and select "*RadioBridge Product Template*" as the starting point.\
-![](../../assets/RadioBridge/CreateNewProduct.png) \
+![](../../assets/RadioBridge/CreateNewProduct.png)
 
 ## 3. Connect RadioBridge Console to Murano
 1.) In the enpoints tab of the product, copy the URL as shown below\
@@ -39,6 +39,7 @@ Familiarize yourself with your Radio Bridge hardware by setting it up using Radi
 [Connect your device to ExoSense.](../../master/ExoSense/README.md)
 
 Once a message has been transmitted from the device, the device will appear in "Unclaimed Devices" in ExoSense
+=======================
 
 # Supported RadioBridge Sensors
 | TYPE | MODEL |
