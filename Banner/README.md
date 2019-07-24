@@ -49,7 +49,7 @@ Note: Each configuration for a device must have a unique GUID. (The GUID must up
 4.) For the version, ensure this matches the GUID in the configuration file (This is found near the top, inside of the <info> tag)
 5.) Select "File" as the type and upload the configuration xml
 
-![Add Software Package](../../assets/Banner/addSoftwarePackage.png)
+![](../../assets/Banner/addSoftwarePackage.png)
 
 ### Next Steps
 - Create an asset from the device. More can be read here: [https://exosense.readme.io/docs/how-to-create-an-asset](https://exosense.readme.io/docs/how-to-create-an-asset) \
