@@ -60,6 +60,6 @@ Note: Each configuration for a device must have a unique GUID. (The GUID must up
 
 
 ### Next Steps
-- Create an asset from the device. More can be read here: [https://exosense.readme.io/docs/how-to-create-an-asset](https://exosense.readme.io/docs/how-to-create-an-asset) \
+- Create an asset from the device. More can be read here: [https://exosense.readme.io/docs/how-to-create-an-asset](https://exosense.readme.io/docs/how-to-create-an-asset)
 - Lastly, create a dashboard to visualize the asset data. More can be read here: [https://exosense.readme.io/docs/how-to-create-a-dashboard](https://exosense.readme.io/docs/how-to-create-a-dashboard)
 
