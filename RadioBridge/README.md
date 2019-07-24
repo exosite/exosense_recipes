@@ -2,16 +2,45 @@
 The guide you will connect your RadioBridge devices to your Exosite product.
 
 ## Table of Contents
-   * [Supported RadioBridge Sensors](#supported-radiobridge-sensors)
-   * [Recommended Hardware](#recommended-hardware)
    * [Prerequisites](#prerequisites)
    * [Connecting RadioBridge and Exosite](#connecting-radiobridge-and-exosite)
       * [Add the RadioBridge Product Template to your account](#add-the-radiobridge-product-template-to-your-account)
       * [Add RadioBridge as a new product](#add-radiobridge-as-a-new-product)
-      * [Connect RadioBridge Console to Murano](#connect-radiobridge-console-to-murano)
+   * [Connect RadioBridge Console to Murano](#connect-radiobridge-console-to-murano)
    * [Add Device in ExoSense](#add-device-in-exosense)
+   * [Supported RadioBridge Sensors](#supported-radiobridge-sensors)
 
-## Supported RadioBridge Sensors
+
+## 1. Prerequisites
+Familiarize yourself with your Radio Bridge hardware by setting it up using Radio Bridge's [getting started page](https://radiobridge.com/documents/Quick%20Start%20Guide%20for%20Radio%20Bridge%20Sensors.pdf) and ensure Radio Bridge has an active connected device.\
+![Screenshot from console.radiobridge.com](../../assets/RadioBridge/RadioBridgeDeviceActive.png)\
+
+## 2. Connecting RadioBridge and Exosite
+### Add the RadioBridge Product Template to your account
+1.) Navigate to Murano and select "*IoT Marketplace*" in the top ribbon\
+2.) In solutions, find and select "*RadioBridge Product Template*"\
+3.) Click the "*Add Product*" button. This adds the template to your account.\
+![](../../assets/RadioBridge/RadioBridgeExchangeElement.png)
+
+### Add RadioBridge as a new product
+1.) Navigate to '*Solutions*'->'*+ New Solution*'->'*Add a product*'\
+2.) Choose a name for your product, could be as simple as '*radiobridge*', and select "*RadioBridge Product Template*" as the starting point.\
+![](../../assets/RadioBridge/CreateNewProduct.png) \
+
+## 3. Connect RadioBridge Console to Murano
+1.) In the enpoints tab of the product, copy the URL as shown below\
+![Endpoint page in Murano](../../assets/RadioBridge/EndpointURL.png) \
+2.) Paste this URL into the API settings of console.radiobridge.com\
+3.) Append the URL with '*/radiobridge*'\
+![from console.radiobridge.com](../../assets/RadioBridge/RadioBridgeConsoleAPI.png)
+
+## 4. Add Device in ExoSense
+
+[Connect your device to ExoSense.](../../master/ExoSense/README.md)
+
+Once a message has been transmitted from the device, the device will appear in "Unclaimed Devices" in ExoSense
+
+# Supported RadioBridge Sensors
 | TYPE | MODEL |
 | ---- | ----- |
 | DOOR/WINDOW SENSOR | RBS101-DWS-RCZ1 |
@@ -74,38 +103,3 @@ The guide you will connect your RadioBridge devices to your Exosite product.
 | VIBRATION SENSOR | RBS301-VS-AU |
 | VIBRATION SENSOR | RBS106-VS-RCZ2 |
 | VIBRATION SENSOR | RBS306-VS-US |
-
-## Recommended Hardware
-Supported RadioBridge Sensor\
-MultiTech MultiConnect Conduit
-
-## Prerequisites
-RadioBridge has an active connected device
-![Screenshot from console.radiobridge.com](../../assets/RadioBridge/RadioBridgeDeviceActive.png)
-
-## Connecting RadioBridge and Exosite
-### Add the RadioBridge Product Template to your account
-1.) Navigate to Murano and select "*IoT Marketplace*" in the top ribbon\
-2.) In solutions, find and select "*RadioBridge Product Template*"\
-3.) Click the "*Add Product*" button. This adds the template to your account.\
-![](../../assets/RadioBridge/RadioBridgeExchangeElement.png)
-
-
-### Add RadioBridge as a new product
-1.) Navigate to '*Solutions*'->'*+ New Solution*'->'*Add a product*'\
-2.) Choose a name for your product, could be as simple as '*radiobridge*', and select "*RadioBridge Product Template*" as the starting point.\
-![](../../assets/RadioBridge/CreateNewProduct.png) \
-
-### Connect RadioBridge Console to Murano
-1.) In the enpoints tab of the product, copy the URL as shown below\
-![Endpoint page in Murano](../../assets/RadioBridge/EndpointURL.png) \
-2.) Paste this URL into the API settings of console.radiobridge.com\
-3.) Append the URL with '*/radiobridge*'\
-![from console.radiobridge.com](../../assets/RadioBridge/RadioBridgeConsoleAPI.png)
-
-## Add Device in ExoSense
-
-[Connect your device to ExoSense](../../master/ExoSense/README.md)
-
-Once a message has been transmitted from the device, the device will appear in "Unclaimed Devices" in ExoSense
-

@@ -3,10 +3,9 @@
 This guide will help you quickly set up your Electric Imp device to Exosite's Murano platform.
 
 
-## 1. Electric Imp Quickstart
+## 1. Prerequisites
 
 Familiarize yourself with your Electric Imp by setting it up using Electric Imp's [getting started page](https://developer.electricimp.com/gettingstarted).
-
 
 ## 2. Murano Setup
 Start of by heading to Exosite's [Murano Platform](https://www.exosite.io/) and login/sign up.
