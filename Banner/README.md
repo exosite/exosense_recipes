@@ -36,7 +36,7 @@ Integrating the Banner DXM100 with ExoSense
 - Once transmitting data, the device will appear in "Unclaimed devices"
 - The device can be identified as it's serial number
 
-Read more about devices here: ![https://exosense.readme.io/docs/devices]https://exosense.readme.io/docs/devices
+Read more about devices here: ![https://exosense.readme.io/docs/devices](https://exosense.readme.io/docs/devices)
 
 ### Configure Channels
 - Locate and select the Device in the "Devices" Tab
