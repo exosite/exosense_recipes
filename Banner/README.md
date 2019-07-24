@@ -39,7 +39,7 @@ Integrating the Banner DXM100 with ExoSense
 Read more about devices here: https://exosense.readme.io/docs/devices
 
 ### Configure Channels
-*Upload Configuration to ExoSense*
+**Upload Configuration to ExoSense**
 To configure the channels, upload the device's configuration XML.
 
 Note: Each configuration for a device must have a unique GUID. (The GUID must update if the configuration changes on a single device)
@@ -52,7 +52,7 @@ Note: Each configuration for a device must have a unique GUID. (The GUID must up
 
 ![](../../assets/Banner/AddSoftwarePackage.png)
 
-*Associate Configuration with Device*
+**Associate Configuration with Device**
 1. Navigate to the device
 2. In the 'Overview' tab, select "Manage" 
 3. Select the correct package and click "Apply"
