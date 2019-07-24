@@ -39,7 +39,8 @@ Familiarize yourself with your Radio Bridge hardware by setting it up using Radi
 [Connect your device to ExoSense.](../../master/ExoSense/README.md)
 
 Once a message has been transmitted from the device, the device will appear in "Unclaimed Devices" in ExoSense
-=======================
+
+-----------------------
 
 # Supported RadioBridge Sensors
 | TYPE | MODEL |
