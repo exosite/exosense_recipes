@@ -37,4 +37,4 @@ const PRODUCT_ID = "<my_product_id>";
 
 ## 4. ExoSense
 
-[Connect your device to ExoSense](../../master/ExoSense/README)
+[Connect your device to ExoSense](../../master/ExoSense/README.md)
