@@ -104,5 +104,8 @@ RadioBridge has an active connected device
 ![from console.radiobridge.com](../../assets/RadioBridge/RadioBridgeConsoleAPI.png)
 
 ## Add Device in ExoSense
+
+[Connect your device to ExoSense](../../master/ExoSense/README.md)
+
 Once a message has been transmitted from the device, the device will appear in "Unclaimed Devices" in ExoSense
 
