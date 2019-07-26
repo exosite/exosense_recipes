@@ -37,3 +37,18 @@ const PRODUCT_ID = "<my_product_id>";
 ## 4. ExoSense
 
 [Connect your device to ExoSense](../../master/ExoSense/README.md)
+
+### Channel Configuration
+To configure the channels in ExoSense to read correctly from the device. The key that the device uses for the data needs to be defined.
+
+To achieve this, the user must have a "Custom" Protocol, with "ElectricImp" as the Application, and `{"key":<device's corresponding key>}`
+
+For example, if the device calls
+```
+local conditions = {};
+conditions.temp <- reading.temperature;
+agent.send("reading.sent", conditions);
+```
+
+A corresponding channel configuration could look like the following:
+![](../../assets/ChannelConfigurationExample.png)
