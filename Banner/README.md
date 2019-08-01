@@ -1,10 +1,9 @@
 # Banner Integration
 Integrating the Banner DXM100 with ExoSense
 
-
 ## Prerequisites
 - ExoSense Account with Banner Product connected and admin access #TODO:Expand on this
-- Banner DXM100 connected to sensors
+- Banner DXM100 with Firmware > 2.02 [Firmware version 2.02](http://info.bannerengineering.com/cs/groups/public/documents/software/182124.zip)
 
 ## Configuring the DXM100
 ### Configure Registers
@@ -29,6 +28,8 @@ Integrating the Banner DXM100 with ExoSense
 - Input '/data_in' as the Page
 
 ![](../../assets/Banner/DXM100_001.PNG)
+
+- The configuration file must be programmed initially to the DXM to initiate the cloud connection. Additionally updates can be made inside ExoSense.
 
 
 ## Configuring ExoSense
@@ -56,8 +57,7 @@ Note: Each configuration for a device must have a unique GUID. (The GUID must up
 1. Navigate to the device
 2. In the 'Overview' tab, select "Manage" 
 3. Select the correct package and click "Apply"
-4. The Software Package Version will update upon a successful sync
-
+4. The Software Package Version will update upon a successful sync (The time this take varies on the size of the configuration file and the current report rate of the DXM device.)
 
 ### Next Steps
 - Create an asset from the device. More can be read here: [https://exosense.readme.io/docs/how-to-create-an-asset](https://exosense.readme.io/docs/how-to-create-an-asset)
