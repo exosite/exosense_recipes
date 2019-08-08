@@ -18,7 +18,7 @@ Familiarize yourself with your Radio Bridge hardware by setting it up using Radi
 ## 2. Connecting RadioBridge and Exosite
 ### Add the RadioBridge Product Template to your account
 1.) Navigate to Murano and select "*IoT Marketplace*" in the top ribbon\
-2.) In solutions, find and select "*RadioBridge Product Template*"\
+2.) In *IoT Connectors*, find and select "*RadioBridge Product Template*"\
 3.) Click the "*Add Product*" button. This adds the template to your account.\
 ![](../../assets/RadioBridge/RadioBridgeExchangeElement.png)
 
