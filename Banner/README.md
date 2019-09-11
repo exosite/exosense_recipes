@@ -1,5 +1,5 @@
 # Banner Integration
-Integrating the Banner DXM100 with ExoSense
+Integrating the Banner DXM100/DXM700 with ExoSense
 
 ## Prerequisites
 - ExoSense Account with Banner Product connected and admin access #TODO:Expand on this
