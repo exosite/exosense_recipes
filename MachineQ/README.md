@@ -7,21 +7,29 @@ This document will walk through connecting from MQcentral to ExoSense&trade;
 ## Prerequisites
 - MachineQ MQcentral account [sign up here](https://mqcentral.machineq.net)
 - Exosite Murano Account [sign up here](https://info.exosite.com/platform-sign-up)
+- Have an active ExoSense instance
 
 ## Add a MachineQ product to Murano
 - Navigate to the [MachineQ Template](https://www.exosite.io/business/exchange/catalog/component/5d790820c07390a50a8ae1f6) in the IoT Marketplace
 - Select "Create IoT Connector" to add a MachineQ product
 
 ## Connect MQcentral to Murano
-- < Integrations tab steps here >
+In this section, we will 'point' MQcentral to send data to Exosite&trade;
+
 - In "Integrations" select "ADD OUTPUT PROFILE"
 - Whithin the output profile created, add a REST Profile
 - The URL for the REST Profile should be ```https://<product_id>.apps.exosite.io/data_in``` where ```product_id``` can be found in Murano **TODO: improve this**
 
 ## Configure ExoSense
-Before configuring, ensure the product is connected to ExoSense **TODO: How to do this/document it**
+Before configuring, ensure the product is connected to ExoSense
+
+You can check this by, inside ExoSense, navigating to "setup" in the left navigation pane. From there, navigate to the "DATA SOURCES" page. On this page, the connected products are listed.
+
+If your product is not connected, contact support at support@exosite.com
 
 ### Claim the device
+Claiming a device associates the device with a group, allowing for device organization and user permission control.
+
 - In ExoSense, select "Devices" in the left navigation bar. From there, select "Unclaimed Devices" in the navigation ribbon.
 - Locate the DevEUI and claim the device, assigning it to a group
 
