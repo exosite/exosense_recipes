@@ -7,7 +7,7 @@ This document will walk through connecting from MQcentral to ExoSense&trade;
 ## Prerequisites
 - MachineQ MQcentral account [sign up here](https://mqcentral.machineq.net)
 - Exosite Murano Account [sign up here](https://info.exosite.com/platform-sign-up)
-- Have an active ExoSense instance
+- An active ExoSense instance
 
 ## Add a MachineQ product to Murano
 - Navigate to the [MachineQ Template](https://www.exosite.io/business/exchange/catalog/component/5d790820c07390a50a8ae1f6) in the IoT Marketplace
