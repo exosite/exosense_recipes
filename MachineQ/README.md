@@ -18,7 +18,7 @@ In this section, we will 'point' MQcentral to send data to Exosite&trade;
 
 - In "Integrations" select "ADD OUTPUT PROFILE"
 - Whithin the output profile created, add a REST Profile
-- The URL for the REST Profile should be ```https://<product_id>.apps.exosite.io/data_in``` where ```product_id``` can be found in Murano **TODO: improve this**
+- The URL for the REST Profile should be ```https://<product_id>.apps.exosite.io/data_in``` where ```product_id``` can be found in Murano **TODO: improve this description**
 
 ## Configure ExoSense
 Before configuring, ensure the product is connected to ExoSense
