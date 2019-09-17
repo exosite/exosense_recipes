@@ -3,7 +3,7 @@ Integrating the Banner DXM100/DXM700 with ExoSense
 
 ## Prerequisites
 - ExoSense Account with Banner Product connected and admin access #TODO:Expand on this
-- Banner DXM100 with Firmware > 2.02 [Firmware version 2.02 Download](http://info.bannerengineering.com/cs/groups/public/documents/software/182124.zip)
+- Banner DXM100/DXM700 with Firmware > 2.02 [Firmware version 2.02 Download](http://info.bannerengineering.com/cs/groups/public/documents/software/182124.zip)
 
 ## Configuring the DXM100
 ### Configure Registers
