@@ -5,3 +5,4 @@ Recipes for using various hardware with ExoSense
 [ElectricImp](ElectricImp/README.md)<br>
 [OpenVPN](OpenVPN/README.md)<br>
 [RadioBridge](RadioBridge/README.md)
+[MachineQ](MachineQ/README.md)<br>
