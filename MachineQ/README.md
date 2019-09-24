@@ -18,14 +18,13 @@ In this section, we will 'point' MQcentral to send data to Exosite&trade;
 
 - In "Integrations" select "ADD OUTPUT PROFILE"
 - Whithin the output profile created, add a REST Profile
-- The URL for the REST Profile should be ```https://<product_id>.apps.exosite.io/data_in``` where ```product_id``` can be found in Murano **TODO: improve this description**
+- The URL for the REST Profile should be ```https://machineqgtw01.apps.exosite.io/vendor/data_in``` 
 
 ## Configure ExoSense
-Before configuring, ensure the product is connected to ExoSense
-
-You can check this by, inside ExoSense, navigating to "setup" in the left navigation pane. From there, navigate to the "DATA SOURCES" page. On this page, the connected products are listed.
-
-If your product is not connected, contact support at support@exosite.com
+## Add the MachineQ IoT Connector to ExoSense
+- Navigate to the [MachineQ IoT Connector](https://www.exosite.io/business//exchange/catalog/component/5d88fbf56dc7611e62f200b1) in the IoT Marketplace
+- Select `ADD TO SOLUTION` 
+- Select your ExoSense solution
 
 ### Claim the device
 Claiming a device associates the device with a group, allowing for device organization and user permission control.
@@ -43,7 +42,3 @@ To visualize the data in ExoSense, the device needs to be configured to describe
 ![image](assets/ChannelDefinition.png)
 
 - Select "Add" to add the channel definition to the device
-
-## TODO
-- Add improved security
-
