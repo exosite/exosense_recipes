@@ -1,17 +1,10 @@
 # MachineQ Connectivity
-
-** This readme is in development ** 
-
-This document will walk through connecting from MQcentral to ExoSense&trade;
+This document will walk through connecting devices from MQcentral to ExoSense&trade;
 
 ## Prerequisites
 - MachineQ MQcentral account [sign up here](https://mqcentral.machineq.net)
 - Exosite Murano Account [sign up here](https://info.exosite.com/platform-sign-up)
 - An active ExoSense instance
-
-## Add a MachineQ product to Murano
-- Navigate to the [MachineQ Template](https://www.exosite.io/business/exchange/catalog/component/5d790820c07390a50a8ae1f6) in the IoT Marketplace
-- Select "Create IoT Connector" to add a MachineQ product
 
 ## Connect MQcentral to Murano
 In this section, we will 'point' MQcentral to send data to Exosite&trade;
@@ -27,6 +20,7 @@ In this section, we will 'point' MQcentral to send data to Exosite&trade;
 - Select your ExoSense solution
 
 ### Claim the device
+** TODO - Update with ExoSense QR Code **
 Claiming a device associates the device with a group, allowing for device organization and user permission control.
 
 - In ExoSense, select "Devices" in the left navigation bar. From there, select "Unclaimed Devices" in the navigation ribbon.
