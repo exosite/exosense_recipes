@@ -36,3 +36,6 @@ To visualize the data in ExoSense, the device needs to be configured to describe
 ![image](assets/ChannelDefinition.png)
 
 - Select "Add" to add the channel definition to the device
+
+### Next Steps
+Once you have a device in ExoSense, the next steps are to [create an asset](https://exosense.readme.io/docs/assets) and a [dashboard](https://exosense.readme.io/docs/dashboard-overview) to visualize your data.
