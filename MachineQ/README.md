@@ -15,7 +15,7 @@ In this section, we will 'point' MQcentral to send data to Exosite&trade;
 
 ## Configure ExoSense
 ## Add the MachineQ IoT Connector to ExoSense
-- Navigate to the [MachineQ IoT Connector](https://www.exosite.io/business//exchange/catalog/component/5d88fbf56dc7611e62f200b1) in the IoT Marketplace
+- Navigate to the [MachineQ IoT Connector](https://www.exosite.io/business/exchange/catalog/component/5d88fbf56dc7611e62f200b1) in the IoT Marketplace
 - Select `ADD TO SOLUTION` 
 - Select your ExoSense solution
 
