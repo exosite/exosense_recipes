@@ -1,4 +1,4 @@
-#Ewon Talk2M Connection
+# Ewon Talk2M Connection
 This guide will walk through connecting ExoSense to Ewon's Talk2M Cloud Platform
 
 ## Before you start
