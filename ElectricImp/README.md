@@ -51,4 +51,4 @@ agent.send("reading.sent", conditions);
 ```
 
 A corresponding channel configuration could look like the following:
-![](../../assets/ChannelConfigurationExample.png)
+![](assets/ChannelConfigurationExample.png)
