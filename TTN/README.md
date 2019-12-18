@@ -10,15 +10,22 @@ The guide you will connect your TTN devices to your Exosite application.
 
 
 ## 1. Verify TTN has Active Devices
-Familiarize yourself with your TTN-connected hardware by setting it up using Radio Bridge's [getting started page](https://radiobridge.com/documents/Quick%20Start%20Guide%20for%20Radio%20Bridge%20Sensors.pdf) and ensure Radio Bridge has an active connected device.<br>
-![Screenshot from console.radiobridge.com](../../assets/RadioBridge/RadioBridgeDeviceActive.png)
+Setup TTN by:<br>
+1.) Adding an Application<br>
+![Add application in TTN](./assets/ttn-add-app.png)
+2.) Registering a Device<br>
+![Register device in TTN](./assets/ttn-register-device.png)
+3.) Connecting the device to the TTN network per the device manufacturer's instructions<br>
+4.) Verify the device is sending data<br>
+![Device sending data](./assets/ttn-device-data.png)
+
 
 ## 2. Configure Murano to Accept TTN Connections
 1.) Navigate to Murano and select "*IoT Marketplace*" in the top ribbon<br>
-2.) In *IoT Connectors*, find and select "*RadioBridge Product Template*"<br>
-3.) Click the "*Add Product*" button. This adds the template to your account.<br>
-![](../../assets/RadioBridge/RadioBridgeExchangeElement.png)
-
+2.) In *IoT Connector Templates*, find and select "*TTN Connector Template*"<br>
+3.) Click the "*Create IoT Connector*" button. This adds the Connector to your account.<br>
+![Create the TTN IoT Connector](./assets/murano-add-ttn-template.png)
+4.) Click "*Home*" to see your list of solutions and click the TTN Connector you deployed to "Manage IoT Connector"
 
 ## 3. Connect TTN to Murano
 1.) In the enpoints tab of the product, copy the URL as shown below<br>
