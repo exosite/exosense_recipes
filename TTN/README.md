@@ -1,5 +1,5 @@
 # TheThingsNetwork (TTN) and Murano Integration
-The guide you will connect your TTN devices to your Exosite application.
+The guide you will connect your TTN devices to your Exosite application.  It uses [The Things Network C2C Template](https://github.com/exosite/TheThingsNetwork_Connector) - view the [ReadMe](https://github.com/exosite/TheThingsNetwork_Connector/blob/master/README.md) there for more detailed information.
 
 ## Table of Contents
    * [Verify TTN has Active Devices](#verify-ttn-has-active-devices)
