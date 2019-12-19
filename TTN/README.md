@@ -12,13 +12,12 @@ The guide you will connect your TTN devices to your Exosite application.
 ## 1. Verify TTN has Active Devices
 Setup TTN by:<br>
 1.) Adding an Application<br>
-<img src="./assets/ttn-add-app.png" alt="Add application in TTN" width="600">
+<img src="./assets/ttn-add-app.png" alt="Add application in TTN" width="600"><br>
 2.) Registering a Device<br>
-![Register device in TTN](./assets/ttn-register-device.png)
+<img src="./assets/ttn-register-device.png" alt="Register device in TTN" width="600"><br>
 3.) Connecting the device to the TTN network per the device manufacturer's instructions<br>
 4.) Verify the device is sending data<br>
-![Device sending data](./assets/ttn-device-data.png)
-
+<img src="./assets/ttn-device-data.png" alt="Device sending data" width="600"><br>
 
 ## 2. Configure Murano to Accept TTN Connections
 1.) Navigate to Murano and select "*IoT Marketplace*" in the top ribbon<br>
