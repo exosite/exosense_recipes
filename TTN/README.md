@@ -26,13 +26,19 @@ Setup TTN by:<br>
 3.) Click the "*Create IoT Connector*" button. This adds the Connector to your account.<br>
 <img src="./assets/murano-add-ttn-template.png" alt="Create the TTN IoT Connector" width="400"><br>
 4.) Click "*Home*" to see your list of solutions and click the TTN Connector you deployed to "Manage IoT Connector"
+<img src="./assets/murano-ttn-deployed.png" alt="Manage TTN IoT Connector" width="400"><br>
 
 ## 3. Connect TTN to Murano
-1.) In the enpoints tab of the product, copy the URL as shown below<br>
-![Endpoint page in Murano](../../assets/RadioBridge/EndpointURL.png) <br>
-2.) Paste this URL into the API settings of console.radiobridge.com<br>
-3.) Append the URL with '*/radiobridge*'<br>
-![from console.radiobridge.com](../../assets/RadioBridge/RadioBridgeConsoleAPI.png)
+1.) In Murano, click the "WWW" icon in the upper left to spawn a new tab with the external URL of the connector - copy the URL from the browser address bar<br>
+<img src="./assets/murano-ttn-url.png" alt="Copy TTN C2C URL" width="400"><br>
+2.) In TTN, go to the "Integrations" tab and click "add integration" and select the HTTP integration<br>
+<img src="./assets/ttn-add-integration.png" alt="Add TTN HTTP integration" width="400"><br>
+3.) Paste the URL from step one into the URL field in the HTTP integration (URL of the endpoint), and add "c2c/callback" at the end of the URL to specify the specific endpoint that the HTTP integration should POST to<br>
+<img src="./assets/ttn-integration-settings.png" alt="Configure TTN HTTP integration" width="400"><br>
+4.) Set a unique identifier (any number) in the Process ID field, select the "default key" for the Access Kay, and click "Add Integration" to start flowing data!<br>
+<img src="./assets/ttn-integration-running.png" alt="TTN HTTP integration running" width="400"><br>
+5.) Verify the connection is working correctly by either generating real device events, or, on a TTN Device page, add some data to the "Simulate Uplink" field and click "Send."  In Murano, go to the Logs subpage of your TTN connector and every time TTN sends data, you should see a new log message generated.
+<img src="./assets/murano-callback-logs.png" alt="Murano logs showing TTN data" width="400"><br>
 
 ## 4. Configure Data Structure for ExoSense
 1.) In the enpoints tab of the produ
