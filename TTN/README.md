@@ -38,8 +38,8 @@ Setup TTN by:<br>
 <img src="./assets/ttn-integration-running.png" alt="TTN HTTP integration running" width="400"><br>
 5.) Verify the connection is working correctly by either generating real device events, or, on a TTN Device page, add some data to the "Simulate Uplink" field and click "Send."  In Murano, go to the Logs subpage of your TTN connector and every time TTN sends data, you should see a new log message generated.
 <img src="./assets/murano-callback-logs.png" alt="Murano logs showing TTN data" width="600"><br>
-6.) If everything is working perfectly, then the Devices subpage in Murano should also show devices being populated as new unique devices report data.
-<img src="./assets/murano-new-devices.png" alt="Murano devices getting populated" width="600"><br>
+6.) If everything is working perfectly, then the Devices subpage in Murano should also show devices being populated as new unique devices report data.<br>
+<img src="./assets/murano-new-devices.png" alt="Murano devices getting populated" width="400"><br>
 <br>
 *NOTE:* The TTN Connector Template is configured out of the box for a Dragino LT-33222-L LoRa I/O Controller.  If your device is different, it is likely that you will have to modify the out of the box settings as detailed at https://github.com/exosite/TheThingsNetwork_Connector (see the section "Configure the data structure for a different LoRa device").
 
