@@ -12,7 +12,7 @@ The guide you will connect your TTN devices to your Exosite application.
 ## 1. Verify TTN has Active Devices
 Setup TTN by:<br>
 1.) Adding an Application<br>
-![Add application in TTN](./assets/ttn-add-app.png | width=600)
+<img src="./assets/ttn-add-app.png" alt="Add application in TTN" width="600">
 2.) Registering a Device<br>
 ![Register device in TTN](./assets/ttn-register-device.png)
 3.) Connecting the device to the TTN network per the device manufacturer's instructions<br>
