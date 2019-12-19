@@ -44,7 +44,17 @@ Setup TTN by:<br>
 *NOTE:* The TTN Connector Template is configured out of the box for a Dragino LT-33222-L LoRa I/O Controller.  If your device is different, it is likely that you will have to modify the out of the box settings as detailed at https://github.com/exosite/TheThingsNetwork_Connector (see the section "Configure the data structure for a different LoRa device").
 
 ## 4. Use Devices in ExoSense
-[Connect your device to ExoSense.](../../master/ExoSense/README.md)
+Before being able to [Use your device in ExoSense.](../../master/ExoSense/README.md), we need to associate the connector with your ExoSense instance.  
+1.) In Murano, when "Managing your IoT Connector," you'll notice a button that says "Publish as a Service" at the bottom of the left menu - click it.<br>
+<img src="./assets/murano-publish-service.png" alt="Publish connector as a service" width="200"><br>
+2.) Make sure "Access" is set to "Private, fill in some recognizable details for the Element Name and Short Description, and click "Publish to Exchange".<br>
+*NOTE:* If you set the Element Access to "Public" (if your subscription tier allows it), anyone using Murano may become a subscriber to your data.  While this could be a good thing, you'll likely want to implement additional claim of ownership capabilities that provide access controls and multi-tenancy to your connector - see the [IoT Connector as a Service documentation](http://docs.exosite.com/connectivity/pdaas/) for more details.
+<img src="./assets/murano-element-details.png" alt="Fill in element details" width="400"><br>
+3.) If everything goes well, you should see a success screen.  Otherwise, review your settings and try again.<br>
+<img src="./assets/murano-element-published.png" alt="Successful element publication" width="200"><br>
+4.) Click "View Element" and then "Add to Solution" and select your ExoSense application solution.<br>
+<img src="./assets/murano-add-privateelement.png" alt="Add element to solution" width="400"><br>
+5.) That is it!  Once a message has been transmitted from the device, the device will appear in "Unclaimed Devices" in ExoSense
 
-Once a message has been transmitted from the device, the device will appear in "Unclaimed Devices" in ExoSense
+*NOTE:* There is one other way to associate an IoT Connector with ExoSense (or other applications) - by adding the business ID containing the app to the business "whitelist" in the C2C Connector's Interface service on the Services subpage.  This will also require the Application Owner to then go to "Manage Application" and click the checkbox in the "IoT Connector Setup" service (Services subpage) next to your TTN IoT Connector entry to enable it.   
 
