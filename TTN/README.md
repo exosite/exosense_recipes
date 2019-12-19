@@ -23,6 +23,7 @@ Setup TTN by:<br>
 ## 2. Configure Murano to Accept TTN Connections
 1.) Navigate to Murano and select "*IoT Marketplace*" in the top ribbon<br>
 2.) In *IoT Connector Templates*, find and select "*TTN Connector Template*"<br>
+![TTN IoT Connector Element](./assets/murano-ttn-element.png)
 3.) Click the "*Create IoT Connector*" button. This adds the Connector to your account.<br>
 ![Create the TTN IoT Connector](./assets/murano-add-ttn-template.png)
 4.) Click "*Home*" to see your list of solutions and click the TTN Connector you deployed to "Manage IoT Connector"
