@@ -5,8 +5,7 @@ The guide you will connect your TTN devices to your Exosite application.
    * [Verify TTN has Active Devices](#verify-ttn-has-active-devices)
    * [Configure Murano to Accept TTN Connections](#configure-murano-to-accept-ttn-connections)
    * [Connect TTN to Murano](#connect-ttn-console-to-murano)
-   * [Configure Data Structure for ExoSense](#configure-data-structure-for-exosense)
-   * [Add Device in ExoSense](#add-device-in-exosense)
+   * [Use Devices in ExoSense](#use-devices-in-exosense)
 
 
 ## 1. Verify TTN has Active Devices
@@ -38,12 +37,13 @@ Setup TTN by:<br>
 4.) Set a unique identifier (any number) in the Process ID field, select the "default key" for the Access Kay, and click "Add Integration" to start flowing data!<br>
 <img src="./assets/ttn-integration-running.png" alt="TTN HTTP integration running" width="400"><br>
 5.) Verify the connection is working correctly by either generating real device events, or, on a TTN Device page, add some data to the "Simulate Uplink" field and click "Send."  In Murano, go to the Logs subpage of your TTN connector and every time TTN sends data, you should see a new log message generated.
-<img src="./assets/murano-callback-logs.png" alt="Murano logs showing TTN data" width="400"><br>
+<img src="./assets/murano-callback-logs.png" alt="Murano logs showing TTN data" width="600"><br>
+6.) If everything is working perfectly, then the Devices subpage in Murano should also show devices being populated as new unique devices report data.
+<img src="./assets/murano-new-devices.png" alt="Murano devices getting populated" width="600"><br>
+<br>
+*NOTE:* The TTN Connector Template is configured out of the box for a Dragino LT-33222-L LoRa I/O Controller.  If your device is different, it is likely that you will have to modify the out of the box settings as detailed at https://github.com/exosite/TheThingsNetwork_Connector (see the section "Configure the data structure for a different LoRa device").
 
-## 4. Configure Data Structure for ExoSense
-1.) In the enpoints tab of the produ
-
-## 5. Add Device in ExoSense
+## 4. Use Devices in ExoSense
 [Connect your device to ExoSense.](../../master/ExoSense/README.md)
 
 Once a message has been transmitted from the device, the device will appear in "Unclaimed Devices" in ExoSense
