@@ -28,13 +28,22 @@ If you are not yet familiar with impCentral and want to learn more, follow the g
 
 1.	Get agent code from [here](https://github.com/electricimp/Exosite/blob/master/Example/example.agent.nut) and copy it into the Agent Code in impCentral
 2.	Get device code from [here](https://github.com/electricimp/Exosite/blob/master/Example/example.device.nut) and copy it into the Device Code in impCentral
-3.	Replace `<my_product_id>` your own Product ID in the Agent code
+3.	Change the Agent Code to use IOT_CONNECTOR. Near the end of the file, change the following line 
+
+from:
 ```
-const PRODUCT_ID = "<my_product_id>";
+exositeAgent <- Exosite(EXOSITE_MODES.MURANO_PRODUCT, settings);
+```
+
+to:
+```
+exositeAgent <- Exosite(EXOSITE_MODES.IOT_CONNECTOR, settings);
 ```
 4.	Build!
 
 ## 4. ExoSense
+
+Add the [ElectricImp IoT Connector](https://www.exosite.io/business/exchange/catalog/component/5d88eb136dc761ccebf20079) to your ExoSense Instance. (Select "ADD TO SOLUTION") 
 
 [Connect your device to ExoSense](../../master/ExoSense/README.md)
 
