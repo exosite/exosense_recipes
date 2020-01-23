@@ -213,7 +213,7 @@ When publishing a custom insight, a configuration YAML file is required.
 
 Modify the info, host, and basePath sections of the Swagger template (insight\_template.yaml):
 
-###Finding the host
+### Finding the host
 In the API Gateway description, the host for the Swagger file can be found. Below is the example description.
 ![](assets/APIGatewayInfo.png)
 
@@ -262,7 +262,7 @@ The swagger file can be copy and pasted directly in if "Enable Swagger content" 
 
 ![](assets/SwaggerPasted.png)
 
-### Fill out the rest of the fields
+Fill out the rest of the fields
 
 ### Publish
 Once all fields a completed, select "Publish"
