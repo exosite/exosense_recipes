@@ -116,7 +116,7 @@ For implementing this endpoint, create an object above the 'if' statement. This 
 
 return the  object (json-ized) when ```/insight/BitDecoder``` is called in a elif statement:
 
-```
+```python
 elif event["requestContext"]["resourcePath"] == "/insight/BitDecoder":
 	return {
 		'statusCode': 200,
@@ -124,8 +124,32 @@ elif event["requestContext"]["resourcePath"] == "/insight/BitDecoder":
 	}
 ```
 
-Then
 ###  'POST /insights' endpoint
+For implementing this endpoint, create an object above the 'if' statement that wraps all functions from the ```/insight/*``` endpoints
+
+```python
+    Insight = {
+        'functions': 
+        [
+            BitDecoder_function
+        ]
+    }
+```
+return the  object (json-ized) when ```/insights``` is called in a elif statement:
+
+```python
+elif event["requestContext"]["resourcePath"] == "/insights":
+	retobj = {
+		'total' : len(Insight["functions"]),
+		'count' : len(Insight["functions"]),
+		'insights': Insight["functions"]
+	}
+	return {
+		'statusCode': 200,
+		'body': json.dumps(retobj)
+	}
+```
+
 ### 'POST /process' endpoint
 
 
