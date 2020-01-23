@@ -187,6 +187,56 @@ and call it in the endpoint handler:
         }
 ```
 
+## Publish Insight to the IoT Marketplace
+In order to access the custom insight from ExoSense it needs to be published in the IoT marketplace and connected to the ExoSense instance. 
+
+This example will show how to publish the insight privately so only the publishing business can access it.
+
+### Create the insight.yaml file
+When publishing a custom insight, a configuration YAML file is required.
+
+Modify the info, host, and basePath sections of the Swagger template (insight\_template.yaml):
+
+###Finding the host
+In the API Gateway description, the host for the Swagger file can be found. Below is the example description.
+![](assets/APIGatewayInfo.png)
+
+The host is the 'API endpoint' with ```https://``` and ```/default/<api_gateway_name```
+
+With this description, the host is:
+```
+bqth6mmw0b.execute-api.us-east-2.amazonaws.com
+```
 
 
+```yaml
+swagger: "2.0"
+
+info:
+  version: "1.0"
+  title: My Demo Insight
+  description: |
+    This demo Insight is a Functional Module that can be publsihed in Exosite's IoT Exchange
+    and used within ExoSense.
+  contact:
+    name: Your Name Here
+    email: YOU@BIZ.com
+
+host: <AWS LAMBDA API HOST># Set this to the host your function is on (Example Custom Murano Hosted App Service, AWS, etc)
+basePath: / # Set this or the path according to your function
+tags:
+  - name: insight
+    description: Insight Module
+schemes:
+  - https  # Only https is supported.
+consumes:
+  - application/json # Only JSON is supported.
+produces:
+  - application/json # Only JSON is supported.
+
+[...]
+```
+
+### 
+![](assets/InsightExamples.png)
 
