@@ -73,6 +73,21 @@ def lambda_handler(event, context):
 ```
 
 ### 'GET /info' endpoint
+To handle the /info endpoint, replace the body of lambda\_handler() with the following code:
+
+```python
+    if event["requestContext"]["resourcePath"] == "/info":
+        info = {
+            'name': "BitDecoder",
+            'description': "This is an example custom insight using an AWS Lambda function",
+            'group_id_required': False,
+            'wants_lifecycle_events': False
+        }
+        return {
+            'statusCode': 200,
+            'body': json.dumps(info)
+        }
+```
 ### 'GET /insight/{fn}' endpoint
 ###  'POST /insights' endpoint
 ### 'POST /process' endpoint
