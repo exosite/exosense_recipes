@@ -151,5 +151,45 @@ elif event["requestContext"]["resourcePath"] == "/insights":
 ```
 
 ### 'POST /process' endpoint
+The ```/process``` endpoint handles the data transformation for the insight.
+
+At the top of the file, create a function ```process_event``` that transforms the input event
+```python
+    def process_event(event):
+        # Create the output object
+        body = event["body"]
+        body_obj = json.loads(body)
+        print(json.dumps(body_obj))
+        data = body_obj["data"][0]
+        output = {}
+        output["origin"] = data["origin"]
+        output["generated"] = data["generated"]
+        output["ts"] = data["ts"]
+        output["tags"] = data["tags"]
+
+        # Translate the data here
+        input_value = data["value"]
+        output['value'] = "Error " + str(input_value)
+
+        return json.dumps([[output]])
+```
+
+and call it in the endpoint handler:
+
+```python
+elif (event["requestContext"]["resourcePath"] == "/process"):
+	return {
+		'statusCode': 200,
+		'body': process_event(event)
+	}
+```
+
+## Final code
+
+```
+```
+
+
+
 
 
