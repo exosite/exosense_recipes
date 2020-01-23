@@ -89,10 +89,43 @@ To handle the /info endpoint, replace the body of lambda\_handler() with the fol
         }
 ```
 ### 'GET /insight/{fn}' endpoint
+For implementing this endpoint, create an object above the 'if' statement. This object will be re-used when handling the ```/insight``` endpoint
+```python
+    BitDecoder_function = {
+        'id' : "bitDecoder",
+        'name' : "Bit Decoder",
+        'description' : "Decodes an integer value",
+        'inlets' :
+        [
+            {
+                'name': 'input_signal',
+                'description': 'Input value',
+                'primitive_type': 'integer'
+            }
+        ],
+        'outlets':
+        [
+            {
+                'name': 'output_signal',
+                'description': 'Error string',
+                'primitive_type': 'string'
+            }
+        ]
+    }
+```
+
+return the  object (json-ized) when ```/insight/BitDecoder``` is called in a elif statement:
+
+```
+elif event["requestContext"]["resourcePath"] == "/insight/BitDecoder":
+	return {
+		'statusCode': 200,
+		'body': json.dumps(BitDecoder_function)
+	}
+```
+
+Then
 ###  'POST /insights' endpoint
 ### 'POST /process' endpoint
-
-
-
 
 
