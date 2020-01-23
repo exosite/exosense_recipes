@@ -186,7 +186,7 @@ and call it in the endpoint handler:
 
 ## Final code
 
-```
+```python
 import json
 
     BitDecoder_function = {
