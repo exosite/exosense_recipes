@@ -103,7 +103,7 @@ For implementing this endpoint, create an object above the 'if' statement. This 
             {
                 'name': 'input_signal',
                 'description': 'Input value',
-                'primitive_type': 'integer'
+                'primitive_type': 'numeric'
             }
         ],
         'outlets':
@@ -237,6 +237,23 @@ produces:
 [...]
 ```
 
-### 
+### Add Info
+
 ![](assets/InsightExamples.png)
+
+### Adding the Swagger file
+The swagger file can be copy and pasted directly in if "Enable Swagger content" is selected. Otherwise, it can be published as a gist and the URL provided.
+
+![](assets/SwaggerPasted.png)
+
+### Fill out the rest of the fields
+
+### Publish
+Once all fields a completed, select "Publish"
+
+## Add to ExoSense
+Select 'ADD TO SOLUTION" in the 'Element Details' page of the insight.
+
+In the dropdown, select the ExoSense solution to add the insight to.
+
 

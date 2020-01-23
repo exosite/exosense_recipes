@@ -9,7 +9,7 @@ import json
             {
                 'name': 'input_signal',
                 'description': 'Input value',
-                'primitive_type': 'integer'
+                'primitive_type': 'numeric'
             }
         ],
         'outlets':
