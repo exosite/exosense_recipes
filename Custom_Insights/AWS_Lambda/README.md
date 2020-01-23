@@ -158,6 +158,15 @@ The ```/process``` endpoint handles the data transformation for the insight.
 
 At the top of the file, create a function ```process_event``` that transforms the input event
 ```python
+    # Takes an integer value as an input value inside the event
+    #   Outputs "Error <n>" with 'n' being the MSB of the provided integer
+    #           "No Error" if there are no '1's in the binary representation
+    #
+    # Examples:
+    # Input '0' -> Binary '0000' -> Output 'No Error'
+    # Input '1' -> Binary '0001' -> Output 'Error 1'
+    # Input '2' -> Binary '0010' -> Output 'Error 2'
+    # Input '3' -> Binary '0011' -> Output 'Error 2'
     def process_event(event):
         # Create the output object
         body = event["body"]
@@ -171,8 +180,15 @@ At the top of the file, create a function ```process_event``` that transforms th
         output["tags"] = data["tags"]
 
         # Translate the data here
-        input_value = data["value"]
-        output['value'] = "Error " + str(input_value)
+        max_bit_position = -1
+        input_value = int(data["value"])
+        for i in range(31): # 32 bits in an integer in python
+            if ((1<<i) & input_value != 0):
+                max_bit_position = i + 1
+        if (max_bit_position == -1):
+            output['value'] = "No Error "
+        else:
+            output['value'] = "Error " + str(max_bit_position)
 
         return json.dumps([[output]])
 ```
