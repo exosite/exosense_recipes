@@ -11,6 +11,10 @@ If we don't configure an IP Address, the PLC will get a 'random' IP adress each 
 If you don't set a static IP, it's possible to temporarily get the IP address using the following:
 
 ```
+NOTE: arp -a should be more consistent, but not tested
+```
+
+```
 $ ifconfig
 ```
 example return:
